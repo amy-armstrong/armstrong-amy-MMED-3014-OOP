@@ -28,11 +28,11 @@ class Pokemon {
 
 // support method
     public function support(): string{
-        return $this->name . "restored their HP! They became healthy!"
+        return $this->name . "restored their HP! They became healthy!";
     }
 
 // returns infp about the pokemon
     public function getInfo(): string{
-        return "{$this->name, $this->type, $this->ability}";
+        return "{$this->name}, {$this->type}, {$this->ability}";
     }
 }
