@@ -6,7 +6,8 @@
 class Gengar extends OffensivePokemon {
     
     use SpecialMoveTrait;
-    public function attack(): string{
+    
+    public function attack(): string {
         return $this->name . "uses Shadow Ball!";
     }
 }

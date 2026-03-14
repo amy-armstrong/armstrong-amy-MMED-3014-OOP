@@ -6,7 +6,8 @@
 class Snorlax extends DefensivePokemon {
     
     use SpecialMoveTrait;
-    public function defend(): string{
+    
+    public function defend(): string {
         return $this->name . "used Body Slam!";
     }
 }

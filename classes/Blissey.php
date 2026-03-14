@@ -6,7 +6,8 @@
 class Blissey extends SupportPokemon {
     
     use SpecialMoveTrait;
-    public function support(): string{
+    
+    public function support(): string {
         return $this->name . "used Wish!";
     }
 }
