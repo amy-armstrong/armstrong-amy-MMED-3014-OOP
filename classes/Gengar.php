@@ -3,7 +3,7 @@
 // gengars class 
 // hes one of the offensive pokemon
 
-class Gengat extends OffensivePokemon {
+class Gengar extends OffensivePokemon {
     
     use SpecialMoveTrait;
     public function attack(): string{
